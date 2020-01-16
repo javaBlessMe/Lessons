@@ -12,4 +12,8 @@ public class Main {
     private static boolean secondFunction(int a, int b){
         return a+b>=10 && a+b<=20;
     }
+    private static void thirdFunction(int a){
+        if(a>=0) System.out.println("Передано положительно число");
+        else System.out.println("Передали отрицательное число");
+    }
 }
