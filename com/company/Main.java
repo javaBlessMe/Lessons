@@ -4,6 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("223");
+
+    }
+    private static int firstFunction (int a, int b, int c, int d){
+        return a * (b + (c / d));
     }
 }
